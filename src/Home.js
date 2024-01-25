@@ -306,9 +306,41 @@ function Home() {
             <div className='container-fluid p-5'>
                 <b className='m-3'><h3>What our customers have to say</h3>Customer Testimonials</b>
                 <Carousel responsive={responsive2}>
-                    <div className="card-wrapper container-sm  m-3 d-flex  justify-content-around">
+                    <div className="card-wrapper container-sm  m-2 d-flex  justify-content-around">
                         <div class="card rounded p-3">
-                        <h3>Some quick example text</h3>
+                            <h3>Some quick example text</h3>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title andSome quick example text to build on the card title and make up the bulk of the card's make up the bulk of the card's content.</p><br></br>Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-wrapper container-sm  m-2 d-flex  justify-content-around">
+                        <div class="card rounded p-3">
+                            <h3>Some quick example text</h3>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title andSome quick example text to build on the card title and make up the bulk of the card's make up the bulk of the card's content.</p><br></br>Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-wrapper container-sm  m-2 d-flex  justify-content-around">
+                        <div class="card rounded p-3">
+                            <h3>Some quick example text</h3>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title andSome quick example text to build on the card title and make up the bulk of the card's make up the bulk of the card's content.</p><br></br>Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-wrapper container-sm  m-2 d-flex  justify-content-around">
+                        <div class="card rounded p-3">
+                            <h3>Some quick example text</h3>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title andSome quick example text to build on the card title and make up the bulk of the card's make up the bulk of the card's content.</p><br></br>Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-wrapper container-sm  m-2 d-flex  justify-content-around">
+                        <div class="card rounded p-3">
+                            <h3>Some quick example text</h3>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title andSome quick example text to build on the card title and make up the bulk of the card's make up the bulk of the card's content.</p><br></br>Read More
                             </div>
@@ -316,7 +348,106 @@ function Home() {
                     </div>
                 </Carousel>
             </div>
+
+            <div className='container-fluid p-5 text-center rounded'  style={{ backgroundColor: "#DAF4ED" }}>
+            <h2>FAQs</h2>
+                    <div class="accordion p-5 rounded m-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Accordion Item #4
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <button className='btn btn-light border-primary w-25'><b>View more</b></button>
+                </div>
+
+                <div className='container text-center mt-4'>
+                    <h3 className='text-primary'>Order medicines online from Truemeds at the best prices.<br></br>An online pharmacy you can trust.</h3>
+                    <img src='https://www.truemeds.in/_next/static/media/H1wWeb.354c7e71.svg'></img>
+                </div>
+                <hr></hr>
+                <div className='container-fluid' style={{ backgroundColor: "#DAF4ED" }}>
+                    <div className='row p-5'>
+                        <div className='col-md-3'>
+                            <h3>Company</h3><br></br>
+                            <p>Health Article</p>
+                            <p>All Medicines</p>
+                            <p>Need Help</p>
+                            <p>FAQ</p>
+                        </div>
+                        <div className='col-md-3'>
+                        <h3>Social</h3><br></br>
+                        <div className='display-flex'>
+                        <i className="bi bi-facebook fa-2x"></i>
+                        <i className="bi bi-youtube fa-2x ms-2"></i>
+                        <i className="bi bi-linkedin fa-2x ms-2"></i>
+                        </div><br></br>
+                        <p>Legal</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                        </div>
+                        <div className='col-md-3'>
+                            <h3>Download Truemeds</h3><br></br>
+                            <b>Manage your health with ease Download Truemeds today!</b>
+                            <p>Get easy access to medicine refills, health information, and more. With our app, you'll never have to wait in line again. Download now and start taking control of your health.</p>
+                            <i class="bi bi-google-play"></i>
+                        </div>
+                        <div className='col-md-3'>
+                            <h3>Contact Us</h3><br></br>
+                            <p>Our customer representative team is available 7 days a week from 9 am - 9 pm.</p><br></br>
+                            <p>support@truemeds.in    08069808861</p>
+                        </div>
+                    </div>
+                    <div className='row display-flex ms-4'>
+                    <p><i class="bi bi-c-circle-fill"></i>2024 - Truemeds | All rights reserved     Our Payment Partners</p>
+                    </div>
+                </div>
         </div>
     )
 }
 export default Home;
+
+
