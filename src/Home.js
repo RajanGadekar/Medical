@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Carousel from "react-multi-carousel";
+import Footer from './Footer';
 import "react-multi-carousel/lib/styles.css";
 
 function Home() {
@@ -76,72 +77,6 @@ function Home() {
                 </div>
             </div>
             <div className='container-fluid p-4'>
-                {/* <div className='row d-flex justify-content-center'>
-                    <div className='w-75 center mt-5 mb-2 rounded p-2 border border-primary'>
-                        <img className='ms-5' style={{ width: '328px' }} src={process.env.PUBLIC_URL + "/img/doc.jpg"}></img>
-                        <img className='w-50 ms-5' src={process.env.PUBLIC_URL + "/img/doct.png"}></img>
-                    </div>
-                    <p className='text-center'><a href='#'><b>View Example</b></a> to compare and understand</p>
-                </div>
-                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators m-0">
-                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner p-3">
-                        <div class="carousel-item active">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/tr:orig-true/mobikwik-500cashback.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/dwebbanner1.jpeg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/dwebbanner3.jpeg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/dwebbanner2.jpeg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="col-md-6 m-3">
-                                    <img src="https://assets.truemeds.in/Images/dwebbanner2.jpeg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/dwebbanner3.jpeg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/tr:orig-true/mobikwik-500cashback.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                                <div class="col-md-6 m-3 ">
-                                    <img src="https://assets.truemeds.in/Images/dwebbanner3.jpeg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div> */}
                 <Carousel responsive={responsive}>
                     <div class="card-wrapper container-lg d-flex  justify-content-around">
                         <img src="https://assets.truemeds.in/Images/tr:orig-true/mobikwik-500cashback.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-724" class="card-img-top" alt="..."></img>
@@ -409,42 +344,7 @@ function Home() {
                     <img src='https://www.truemeds.in/_next/static/media/H1wWeb.354c7e71.svg'></img>
                 </div>
                 <hr></hr>
-                <div className='container-fluid' style={{ backgroundColor: "#DAF4ED" }}>
-                    <div className='row p-5'>
-                        <div className='col-md-3'>
-                            <h3>Company</h3><br></br>
-                            <p>Health Article</p>
-                            <p>All Medicines</p>
-                            <p>Need Help</p>
-                            <p>FAQ</p>
-                        </div>
-                        <div className='col-md-3'>
-                        <h3>Social</h3><br></br>
-                        <div className='display-flex'>
-                        <i className="bi bi-facebook fa-2x"></i>
-                        <i className="bi bi-youtube fa-2x ms-2"></i>
-                        <i className="bi bi-linkedin fa-2x ms-2"></i>
-                        </div><br></br>
-                        <p>Legal</p>
-                        <p>Terms & Conditions</p>
-                        <p>Privacy Policy</p>
-                        </div>
-                        <div className='col-md-3'>
-                            <h3>Download Truemeds</h3><br></br>
-                            <b>Manage your health with ease Download Truemeds today!</b>
-                            <p>Get easy access to medicine refills, health information, and more. With our app, you'll never have to wait in line again. Download now and start taking control of your health.</p>
-                            <i class="bi bi-google-play"></i>
-                        </div>
-                        <div className='col-md-3'>
-                            <h3>Contact Us</h3><br></br>
-                            <p>Our customer representative team is available 7 days a week from 9 am - 9 pm.</p><br></br>
-                            <p>support@truemeds.in    08069808861</p>
-                        </div>
-                    </div>
-                    <div className='row display-flex ms-4'>
-                    <p><i class="bi bi-c-circle-fill"></i>2024 - Truemeds | All rights reserved     Our Payment Partners</p>
-                    </div>
-                </div>
+                <Footer/>
         </div>
     )
 }
